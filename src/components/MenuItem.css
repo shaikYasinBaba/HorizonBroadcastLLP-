@@ -1,0 +1,34 @@
+/* src/components/MenuItem.css */
+.menu-item {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .menu-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 25%;
+    background: rgba(0, 0, 0, 0.5); /* Black shadow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay h2 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
